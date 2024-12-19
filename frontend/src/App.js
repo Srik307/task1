@@ -12,7 +12,7 @@ function App() {
   useEffect(()=>{
     const fetchEmployees=async()=>{
       try{
-      const response=await fetch("https://backend-test-cct9.onrender.com/employees");
+      const response=await fetch("https://task1-vwxe.onrender.com/employees");
       const responseData=await response.json();
       console.log(responseData);
       setEmployees(responseData);
@@ -48,7 +48,7 @@ function App() {
       doj:formref.current[6].value,
       role:formref.current[7].value
     }
-    const response=await fetch("https://backend-test-cct9.onrender.com/employees/post/add",{
+    const response=await fetch("https://task1-vwxe.onrender.com/employees/post/add",{
       method:"POST",
       headers:{
         "Content-Type":"application/json"
