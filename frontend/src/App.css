@@ -1,0 +1,109 @@
+/* General styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5f5;
+}
+
+/* App container */
+.App {
+  max-width: 900px;
+  margin: 20px auto;
+  padding: 20px;
+  background: #ffffff;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+/* Form container */
+form {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+/* Form labels */
+form label {
+  font-size: 18px;
+  font-weight: 500;
+  margin: 10px 0 5px;
+  color: #333;
+}
+
+/* Form inputs */
+form input, form select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  transition: border-color 0.3s;
+}
+
+form input:focus, form select:focus {
+  border-color: #ff0059;
+  outline: none;
+}
+
+/* Form buttons */
+form button {
+  padding: 10px 20px;
+  font-size: 16px;
+  color: #fff;
+  background-color: #ff0059;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-right: 10px;
+  transition: background-color 0.3s;
+}
+
+form button[type="reset"] {
+  background-color: #6c757d;
+}
+
+form button:hover {
+  background-color: #0056b3;
+}
+
+form button[type="reset"]:hover {
+  background-color: #5a6268;
+}
+
+/* Employees table */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+table thead {
+  background-color: #ff0059;
+  color: #ffffff;
+}
+
+table th, table td {
+  padding: 10px;
+  text-align: left;
+  border: 1px solid #ddd;
+}
+
+table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+table tr:hover {
+  background-color: #f1f1f1;
+}
+
+table th {
+  font-weight: bold;
+}
+
+h1, h3 {
+  color: #333;
+  text-align: center;
+}
